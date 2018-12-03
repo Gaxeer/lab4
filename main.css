@@ -1,0 +1,105 @@
+.tournTable {
+    background-image: url(lamin.jpg);
+}
+
+.index {
+    background-image: url(tournaments.jpg);
+}
+
+.setUp {
+    background-image: url(slitki.jpg);
+    background-repeat: no-repeat;
+}
+
+.headLine {
+    text-align: center;
+    color: goldenrod;
+    margin-top: 145px;
+}
+
+.partNumSend {
+    float: left;
+    width: 15%;
+    margin-left: 34%;
+    margin-top: 17%;
+    border-radius: 10px;
+    border: 3px solid rgb(16, 2, 143);
+    text-align: center;
+}
+
+.juryNumSend {
+    float: right;
+    width: 15%;
+    margin-right: 34%;
+    margin-top: 17%;
+    border-radius: 10px;
+    border: 3px solid rgb(16, 2, 143);
+    text-align: center;
+}
+
+.send {
+    background-color: white;
+    float: left;
+    clear: both;
+    width: 10%;
+    margin-left: 45%;
+    margin-top: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 3px solid rgb(16, 2, 143);
+}
+
+.send:hover {
+    background-color: rgb(216, 184, 5);
+    cursor: pointer;
+}
+
+.notBootstrapContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.juryColTitle,
+.pathColTitle {
+    font-size: 32px;
+    text-align: center;
+}
+
+.buttonSubmit {
+    width: 100px;
+    height: 50px;
+    margin: 10vh 0 0 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 3px solid rgb(16, 2, 143);
+}
+
+.buttonSubmit:hover {
+    background-color: rgb(216, 184, 5);
+    cursor: pointer;
+}
+
+.part,
+.jury {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-align: center;
+    margin-top: 1px;
+    border: 2px solid rgb(16, 2, 143);
+    width: 200px;
+}
+
+.votes {
+    width: 10%;
+    margin: 0 45%;
+}
